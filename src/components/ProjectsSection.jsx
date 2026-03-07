@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "SymptomCheckerAI",
+    description: "AI-powered medical triage tool that analyzes user symptoms and provides possible conditions with severity insights.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Python", "OpenAI API", "Streamlit", "JSON"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/jjakepotterr/AiSymptomTrackerApp",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "TutorLinkApp",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Platform designed to connect tutors and students, allowing users to browse tutors, manage sessions, and leave ratings.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Python", "Streamlit", "SQL", "JSON"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/jjakepotterr/TutorLinkApp",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Flashcard Study App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Interactive web application for studying concepts through digital flashcards with flip animations and dynamic state management.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "JavaScript", "HTML", "CSS"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -42,8 +42,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          A selection of projects where I built tools using AI, data analysis, and modern web technologies.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/jjakepotterr"
           >
             Check My Github <ArrowRight size={16} />
           </a>
