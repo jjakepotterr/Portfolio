@@ -2,29 +2,30 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  // AI / Data
+  { name: "Python", level: "Advanced", category: "ai/data" },
+  { name: "SQL", level: "Intermediate", category: "ai/data" },
+  { name: "Pandas", level: "Intermediate", category: "ai/data" },
+  { name: "OpenAI API", level: "Intermediate", category: "ai/data" },
+  { name: "Streamlit", level: "Advanced", category: "ai/data" },
+  { name: "Scikit-Learn", level: "Learning", category: "ai/data"},
+  { name: "Plotnine/Matplotlib", level: "Intermediate", category: "ai/data" },
 
-  // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+
+  // Frontend
+  { name: "JavaScript", level: "Intermediate", category: "frontend" },
+  { name: "React", level: "Advanced", category: "frontend" },
+  { name: "HTML/CSS", level: "Advanced", category: "frontend" }, 
+  { name: "Tailwind CSS", level: "Intermediate", category: "frontend" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", level: "Advanced", category: "tools" },
+  { name: "VS Code", level: "Advanced", category: "tools" },
+  { name: "Excel", level: "Advanced", category: "tools" },
+  { name: "AWS", level: "Learning", category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "ai/data", "frontend", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -36,7 +37,7 @@ export const SkillsSection = () => {
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          My <span className="text-primary"> Skills</span>
+          Technical <span className="text-primary"> Skills</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -74,7 +75,7 @@ export const SkillsSection = () => {
 
               <div className="text-right mt-1">
                 <span className="text-sm text-muted-foreground">
-                  {skill.level}%
+                  {skill.level}
                 </span>
               </div>
             </div>

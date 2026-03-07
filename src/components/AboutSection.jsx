@@ -12,20 +12,16 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Builder of Intelligent Applications
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With over 5 years of experience in software development, I specialize
+              in creating responsive applications that combine artificial intelligence with user interface design.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Most of my learning happens through building projects. I like taking a concept, figuring out how it works, and turning it into a working application. Along the way I’ve explored artificial intelligence, data analysis, and full stack development while creating tools and platforms that bring those ideas to life.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -38,7 +34,7 @@ export const AboutSection = () => {
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Resume CV
               </a>
             </div>
           </div>
@@ -47,13 +43,14 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> AI Applications</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building intelligent tools that use artificial intelligence to solve real world problems and automate complex tasks.
+                    <br />
+                    <strong>Python • OpenAI API • Streamlit • JSON</strong>
                   </p>
                 </div>
               </div>
@@ -61,13 +58,14 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Full Stack Development</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Designing and building complete applications from backend logic to user interfaces using modern technologies.
+                    <br />
+                    <strong>React • JavaScript • Node • Vite • Tailwind</strong>
                   </p>
                 </div>
               </div>
@@ -79,10 +77,11 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Data Analysis</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Working with data to uncover insights, build models, and support better decision making through analysis.
+                    <br />
+                    <strong>Python • Pandas • SQL • Excel • A/B Testing</strong>
                   </p>
                 </div>
               </div>
