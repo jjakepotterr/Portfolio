@@ -1,4 +1,5 @@
 import {
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -59,6 +60,19 @@ export const ContactSection = () => {
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     jakeparis175@gmail.com
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Github className="h-6 w-6 text-primary" />{" "}
+                </div>
+                <div>
+                  <h4 className="font-medium"> Github</h4>
+                  <a
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    github.com/jjakepotterr
                   </a>
                 </div>
               </div>
@@ -132,7 +146,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="nathan@gmail.com"
                 />
               </div>
 
