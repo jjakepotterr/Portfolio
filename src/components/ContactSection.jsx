@@ -69,7 +69,10 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium"> Github</h4>
-                  <a
+                  <a                    
+                    href="https://github.com/jjakepotterr"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     github.com/jjakepotterr
@@ -83,6 +86,9 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> LinkedIn</h4>
                   <a
+                    href="https://www.linkedin.com/in/jakeppotter"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     linkedin.com/in/jakeppotter
@@ -95,7 +101,12 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium"> Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">
+                  <a   
+                  href="https://www.google.com/maps/place/Fort+Lauderdale,+FL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Fort Lauderdale, Florida
                   </a>
                 </div>

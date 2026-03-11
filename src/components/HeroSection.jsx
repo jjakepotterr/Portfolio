@@ -25,7 +25,7 @@ export const HeroSection = () => {
             </h1>
 
             <p className="text-lg md:text-3xl text-muted-foreground opacity-0 animate-fade-in-delay-3">
-              Computer science student specializing in building intelligent applications using AI, data analysis, and modern web technologies.
+              A Computer science student specializing in building intelligent applications using AI, data analysis, and modern web technologies.
               I enjoy turning complex ideas into functional products and creating tools that solve real world problems.
             </p>
 
