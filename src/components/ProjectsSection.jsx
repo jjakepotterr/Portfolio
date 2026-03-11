@@ -27,8 +27,8 @@ const projects = [
       "Interactive web application for studying concepts through digital flashcards with flip animations and dynamic state management.",
     image: "/projects/project3.png",
     tags: ["React", "JavaScript", "HTML", "CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "/demos/flashcard-study-app",
+    githubUrl: "https://github.com/jjakepotterr",
   },
 ];
 
@@ -77,6 +77,7 @@ export const ProjectsSection = () => {
                     <a
                       href={project.demoUrl}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
@@ -84,6 +85,7 @@ export const ProjectsSection = () => {
                     <a
                       href={project.githubUrl}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
