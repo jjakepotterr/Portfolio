@@ -7,7 +7,7 @@ const projects = [
     description: "AI-powered medical triage tool that analyzes user symptoms and provides possible conditions with severity insights.",
     image: "/projects/project1.png",
     tags: ["Python", "OpenAI API", "Streamlit", "JSON"],
-    demoUrl: "#",
+    demoUrl: "https://symptomcheckerai.streamlit.app/",
     githubUrl: "https://github.com/jjakepotterr/AiSymptomTrackerApp",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
       "Platform designed to connect tutors and students, allowing users to browse tutors, manage sessions, and leave ratings.",
     image: "/projects/project2.png",
     tags: ["Python", "Streamlit", "SQL", "JSON"],
-    demoUrl: "#",
+    demoUrl: "https://tutorlink.streamlit.app/",
     githubUrl: "https://github.com/jjakepotterr/TutorLinkApp",
   },
   {
